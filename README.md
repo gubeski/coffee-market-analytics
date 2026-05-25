@@ -21,6 +21,7 @@ End-to-end coffee market analytics: Python ETL, PostgreSQL (SCD Type 2), Power B
 ---
 
 ## 🏗 Архитектура
+```text
 Парсеры (PDF/Web)
 ↓
 shared_mapper.py — DrinkMapper (кэш-слой text→ID)
@@ -30,7 +31,7 @@ price_pipeline.py — SCD Type 2 upsert, алерты
 PostgreSQL — price_history, alert_events, views
 ↓                    
 Power BI Dashboard    tg_alerter.py → Telegram
-
+```
 ### Слой 1 — Data Layer (PostgreSQL)
 
 Реляционная схема с тремя логическими группами таблиц:
@@ -94,7 +95,7 @@ DAX-меры: `MEDIANX` для защиты от выброса эспрессо
 │   ├── coffee_analytics_theme.json
 │   └── screenshots/
 └── README.md
-
+```
 ---
 
 ## 🚀 Быстрый старт

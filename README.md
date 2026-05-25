@@ -77,6 +77,7 @@ DAX-меры: `MEDIANX` для защиты от выброса эспрессо
 ---
 
 ## 📂 Структура репозитория
+```text
 ├── sql/
 │   ├── 01_schema.sql          # DDL: таблицы, индексы, enum-типы
 │   └── 02_views.sql           # Витрины v_current_prices, v_benchmark_delta

@@ -1,0 +1,41 @@
+{
+  "name": "Coffee Analytics",
+  "dataColors": [
+    "#185FA5",
+    "#0F6E56",
+    "#854F0B",
+    "#E24B4A",
+    "#B5D4F4",
+    "#9FE1CB",
+    "#FAC775",
+    "#F7C1C1"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2C2C2A",
+  "tableAccent": "#185FA5",
+  "maximum": "#3B6D11",
+  "minimum": "#A32D2D",
+  "null": "#D3D1C7",
+  "textClasses": {
+    "callout": {
+      "fontSize": 24,
+      "fontFace": "Segoe UI",
+      "color": "#2C2C2A"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI",
+      "color": "#2C2C2A"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI",
+      "color": "#2C2C2A"
+    },
+    "label": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#5F5E5A"
+    }
+  }
+}
